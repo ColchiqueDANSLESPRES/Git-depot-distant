@@ -1,0 +1,47 @@
+a {
+    color :white;
+}
+.parentacceuil {
+    display : flex;
+    justify-content: space-between;
+   
+}
+
+.boxacceuil {
+    display :  inline-block;
+    }  
+
+.boxhdp {
+    display: inline-block ;
+    vertical-align:middle;
+
+    font-size: 50px;
+    margin-left: auto
+    margin-right: auto;
+}
+
+
+.jardin {
+   
+}
+
+.sommaire {
+    background-color: black;
+}
+
+#rectangle
+ { 
+     width:450px;
+    height: auto; 
+    background: rgb(183, 184, 182);
+    /* margin-left:78.8%;  */
+}
+
+.bdp {
+    background-color: black;
+    <style> a{
+        color: white;
+}}
+    
+    
+

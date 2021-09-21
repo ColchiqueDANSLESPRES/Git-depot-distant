@@ -1,0 +1,56 @@
+a {
+    color: white;
+ 
+}
+
+.parentacceuil {
+    display : flex;
+    justify-content: space-between; 
+}
+
+
+
+
+.boxacceuil {
+    display :  inline-block;
+}  
+
+.sommaire {
+    background-color: black;
+}
+
+#rectangle
+ { 
+     width:450px;
+    height: auto; 
+    background: rgb(183, 184, 182);
+    /* margin-left:78.8%;  */
+}
+
+.bdp {
+    background-color: black;
+    <style> a{
+        color: white;
+}}
+    
+    
+@media screen and (max-width: 768px) 
+{     /* enleve le rectangle */
+    #rectangle 
+    { 
+    display: none;
+    } 
+
+    .menu {
+    display : block
+    }
+
+    .basdepage {
+        display : block
+    }
+    
+    .boxacceuil 
+    {
+    display: block;
+    }
+}

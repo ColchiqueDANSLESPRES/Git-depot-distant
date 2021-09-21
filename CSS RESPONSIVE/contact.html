@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="stylejardinou.css" type="text/css" >
+     
+<!--HAUT DE PAGE CONTACT  -->
+    <title>Contact css</title>
+</head>
+
+<!-- entete -->
+<header>
+    <div class="hautdepage">
+        <div class="boxhdp" id="image">
+        <img src="asset/jarditoulogo.jpg" alt="logojarditou" width=50%></div>
+
+        <div class="boxhdp" id="textacceuil"> <b>Tout le jardin</div></b>
+    </div>
+<br>
+
+<p class="sommaire">    
+    <br><a class="menu" href="index.html" title="Acceuil">Accueil</a>
+    <a class="menu" href="contact.html" title="Contact">Contact</a>
+    <a class="menu" href="tableau.html" title="taleau">Tableau</a>  
+     <br><br>
+</p class="sommaire">
+
+    <img src="asset/promotion.jpg" width=100% >
+
+</header>
+
+
+ <!--  corps de la page -->
+<body>
+    
+    <form action=""  method="POST">
+    * ces zones sont obligatoire
+        
+            <fieldset>
+            <Legend>Vos cordonées</Legend>
+            
+                <br>
+                <label for="nom"> Votre nom *:</label> <input required type="text" name="nom">
+                <br>
+                <label for="prenom"> Votre prénom *:</label> <input type="text" required name="prenom">
+                <br>
+                
+                Sexe *:  <input type="radio" required name="sexe" value="homme"> Homme
+                <input type="radio" required name="sexe" value="femme" checked>Femme
+                <br>
+                <label for="birthdau">Date de naissance *:</label> <input type="text" required name="birthday">
+                <br>
+                <label for="code_postal">Code Postal *:</label> <input type="text" required name="birdthday"> 
+                <br>
+                <label for="adress">Adresse *:</label> <input type="text" name="adresse"> 
+                <br>
+                <label for="ville">Ville *:</label> <input type="text" name="ville"> 
+                <label for="mail">E-mail *:</label> <input type="text" name="mail" placeholder="dave/loper@afpa.fr">
+            
+            </fieldset > 
+
+            <fieldset>
+                <legend>Votre demande</legend>
+                
+            <select required id="sujet">Sujet  
+                <option value="" selected disabled>-veuillez selectionner un sujet </option>
+                <option value="commande">mes commandes</option>
+                <option value="question_produit">Question sur un produit</option>
+                <option value="reclamation">Réclamation</option>
+                <option value="autres">Autres</option>
+                </select> 
+
+                <br>
+                
+
+                votre question :
+                <textarea name="commentaie" id="" cols="10" rows="2"></textarea>
+                <br>
+                <input type="checkbox" name="accepter"> * J'accepte le traitement informatique de ma demande.
+                <br>
+                <button type="submit"> Envoyer</button>
+                <button type="reset"> Annuler</button>
+            </fieldset>
+
+    </form>
+
+</body>
+
+<footer>
+
+    <div class="bdp" id="bdp"><br>
+        <a class="basdepage" href="mentionlegale.html">Mentions légales</a>
+        <a class="basdepage" href="horaire.html">Horaires</a>
+        <a class="baspepage" href="Plandusite.html">Plan du site</a>
+        <br> <br>
+    </div class="bdp">
+<footer>
+
+</html>
