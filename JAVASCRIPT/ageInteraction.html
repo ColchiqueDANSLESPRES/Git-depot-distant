@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Age interraction avec HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodyAgeHtml">
+    <header>    
+        <div class="row" id="entete">
+<!-- bouton Retour Index -->
+            <div class="col-4">
+                <button id="boutonIndex" type="button" class="btn btn-warning">Retour Index</button>
+<!-- bouton réactualiser -->
+                <button id="reactualiser" type="button" class="btn btn-danger">Réactualiser</button>
+
+            </div>
+        </div>
+    </header>
+    
+
+<div class= "container">
+
+    <div class="row">
+        <div class="col-4">
+            <img src="asset/IMG/evolution.jpg" alt="evolution" title="evolution simpson">
+        </div>
+           
+
+
+        </div>
+           
+<!-- Affichage résultat  -->
+        <div class="col-4 text-align:center">
+            <p><br><br>
+                il y a <span id="nombre"> </span> personnes qui ont saisie leur age.
+                <br> Parmis elle(s) :
+            </p>      
+            <p id="textmineur">
+                il y a <span id="mineur"> </span> jeune(s).
+            </p>
+            <p id="textadulte">
+                il y a <span id="adulte"> </span> personne(s) d'age moyen.
+            </p>
+            <p id="textsenior"> 
+                il y a <span id="senior"> </span> sénior(s).
+            </p>
+        </div>    
+    </div>
+<!-- fin affichage résultat -->
+
+
+
+<!-- commande bootstrap & JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="fichierJS/age2.js"></script>
+</div>
+</body>
+</html>

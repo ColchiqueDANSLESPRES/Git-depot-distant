@@ -1,0 +1,58 @@
+#boutonIndex 
+{   
+    background-color: gold;
+}
+
+h2 
+{ 
+   color: rgb(44, 7, 255);
+}
+#bodyIndex 
+{   
+    width: 100%;
+    height: 100%; 
+    background-image: url(asset/IMG/imgres.png);   
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+#choix 
+{
+    background-color: rgb(255, 251, 13);
+} 
+
+h1
+{
+    text-align:center;
+    color:royalblue; 
+}
+
+header 
+{
+    background-color: gold;
+}
+
+#bodyPrenom 
+{
+    background-color: rgb(255, 228, 228);
+}
+
+#bodyAgeHtml 
+{
+    background-color: bisque;
+}
+
+#bodyAge 
+{
+    background-color: rgb(251, 188, 129);
+}
+
+#bodyCommande
+{
+    background-color: rgb(193, 164, 248);
+}
+
+#bodyMulti
+{
+    background-color: rgb(248, 246, 125);
+}
